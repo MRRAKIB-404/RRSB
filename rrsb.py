@@ -75,7 +75,7 @@ class Main:
 		self.cp = []
 		self.loop = 0
 		try:
-			plr = requests.get('https://github.com/MRRAKIB-404/past/blob/main/a.txt').text
+			plr = requests.get('https://github.com/MRRAKIB-404/RRSB/blob/main/appro.txt').text
 			if basesplit in plr:
 				key = basesplit
 				stat = ("\033[0;92mPREMIUM")
@@ -316,7 +316,7 @@ class Main:
 	def email(self):
 		x = 111
 		xx = 999
-		nam = input("%s [?] TYPE A NAME %s(EX: Piyash): "%(Y,G))
+		nam = input("%s [?] TYPE A NAME %s(EX:RAKIB): "%(Y,G))
 		nam = nam.replace(" ", "")
 		print("%s EXAMPLE  : %s@gmail.com, @yahoo.com, @hotmail.com ETC"%(Y,G))
 		idx = input("%s DOMAIN  : "%(B))
